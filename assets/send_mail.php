@@ -39,7 +39,7 @@ if($send_mail) {
   ];
 }
 //* Cualquier Origen
-//header("Access-Control-Allow-Origin: *")
+header("Access-Control-Allow-Origin: *");
 
 //*Restringiendo los dominios.
 //header("Access-Control-Allow-Origin: https://jonmircha.com");
